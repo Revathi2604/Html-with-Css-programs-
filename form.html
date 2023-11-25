@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BCS350 Assignment 3 - Create Your Profile</title>
+</head>
+<body>
+    <h2 style="text-decoration: underline;">Sample Output:</h2>
+    <h2>Figure 1. HTML form for user input</h2>
+    <div style="margin-left: 3px;">
+        <div style="border: 1px solid black; padding: 3px;">
+            <h2>BCS350 Assignment 3 - Create Your Profile</h2>
+        </div>
+        
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td><label for="firstName" class="input-label">First Name:</label></td>
+                    <td><input type="text" id="firstName" name="firstName"></td>
+                </tr>
+                <tr>
+                    <td><label for="lastName" class="input-label">Last Name:</label></td>
+                    <td><input type="text" id="lastName" name="lastName"></td>
+                </tr>
+                <tr>
+                    <td><label for="email" class="input-label">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="classStanding" class="input-label">Class Standing:</label></td>
+                    <td>
+                        <select id="classStanding" name="classStanding">
+                            <option value="Freshman">Freshman</option>
+                            <option value="Experienced">Experienced</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="school" class="input-label">School:</label></td>
+                    <td>
+                        
+                        <input type="radio" name="school" value="School of Arts & Sciences"> School of Arts & Sciences<br>
+                        <input type="radio" name="school" value="School of Business"> School of Business<br>
+                        <input type="radio" name="school" value="School of Engineering Technology"> School of Engineering Technology<br>
+                        <input type="radio" name="school" value="School of Health Sciences"> School of Health Sciences<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="extra" class="input-label">Extra:</label></td>
+                    <td>
+                        <ul style="list-style: none; padding-left: 0;">
+                            <li><input type="checkbox" name="extra" value="Veteran"> Veteran</li>
+                            <li><input type="checkbox" name="extra" value="Transfer Student"> Transfer Student</li>
+                            <li><input type="checkbox" name="extra" value="International Student"> International Student</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="programInfo" class="input-label">Program and Other Information you'd like to share:</label></td>
+                    <td><textarea id="programInfo" name="programInfo" rows="5" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="profilePicture" class="input-label">Upload your profile picture (JPG, GIF, PNG, or TIF File):</label></td>
+                    <td><input type="file" id="profilePicture" name="profilePicture"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

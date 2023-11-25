@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc; /* Sand color */
+        }
+        .container {
+  display: flex;
+  flex-direction: column; /* Change flex direction to column */
+  justify-content: center;
+  align-items: center;
+}
+
+.element {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.elementA {
+  width: 90%;
+  height: 80px;
+  margin-bottom: 20px; /* Add margin below A box */
+}
+
+.elementB {
+  width: 40%;
+  height: 350px;
+  float: none; /* Remove float property */
+}
+
+.elementF {
+  width: 40%;
+  height: 350px;
+}
+-----------------------------------------------------
+
+        
+
+
+
+
+
+
+
+
+
+.element {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.elementA {
+  width: 90%;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.elementBF {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Space out B and F boxes */
+}
+
+.elementB,
+.elementF {
+  width: 40%;
+  height: 350px;
+  margin: 10px;
+}
+
+.elementF {
+  margin-left: 0; /* Remove margin to the left of F box */
+}
+
+
+
+
+--------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .container {
+            overflow: hidden;
+            padding-left: 50px; /* Left margin */
+            padding-right: 50px; /* Right margin */
+            margin-bottom: 50px; /* Bottom margin for the container */
+            margin-right: 50px; /* Adjusted right margin */
+            margin-left: 50px; /* Adjusted left margin */
+        }
+
+        .left-margin,
+        .right-margin {
+            background-color: red;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            width: 50px;
+        }
+
+        .left-margin {
+            left: 0;
+        }
+
+        .right-margin {
+            right: 0;
+        }
+
+        .box {
+            background-color: #8B4513; /* Brown */
+            color: white;
+            padding: 20px;
+            margin-top: 20px; /* Top margin for the brown box */
+            border-radius: 20px;
+            text-align: justify;
+            margin-bottom: 20px; /* Bottom margin for the brown box */
+            margin-left: 20px; /* Adjusted left margin */
+        }
+
+        .full-width-box {
+            background-color: #f5f5dc; /* Sand color */
+            color: #333; /* Dark Text Color */
+            padding: 20px;
+            text-align: center; /* Center the text in full-width-box */
+        }
+
+        .left-box,
+        .right-box {
+            width: calc(50% - 50px); /* 50% width minus both margins */
+            float: left;
+            margin-right: 20px; /* Margin between the boxes */
+            text-align: justify;
+            box-sizing: border-box; /* Include padding and border in the box's total width */
+        }
+
+        .red-margin,
+        .copyright-box {
+            margin: 20px;
+            background-color: red;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: calc(100% - 100px); /* 100% width minus both left and right margins */
+            margin-right: 50px; /* Adjusted right margin */
+        }
+
+        .copyright-box {
+            bottom: 20px; /* 20px bottom margin */
+        }
+    </style>
+</head>
+<body>
+  <div class="left-margin"></div>
+    <div class="right-margin"></div>
+
+    <div class="container">
+      <div class="element elementA">           HTML</div>
+      
+    </div>
+
+
+    <div style="border: 1px solid black; width: 40%; height: 350px; margin-top: 10px; margin-left: 5%; float: left;">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+    </div>
+    <div style="border: 1px solid black; width: 40%; height: 350px; margin-top: 10px; margin-left: 55%;">
+      There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc</div>
+
+
+
+
+
+
+
+      
+      <div class="element red-margin" style="width: 100%; margin: 0 auto; text-align: center;">
+        <p>Copyright © Box Model, all rights reserved.</p>
+      </div>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    </div>
+    
+  
+    
+
+
+</body>
+</html>
